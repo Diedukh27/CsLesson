@@ -18,7 +18,15 @@
 //Console.WriteLine("Result: "+ rating);
 
 
-Console.WriteLine("Enter dagrees:");
-double dargees = double.Parse(Console.ReadLine());
-double fahrenheit  =  dargees * 9 / 5 + 32;
-Console.Write($"Result:  "+fahrenheit);
+//Console.WriteLine("Enter dagrees:");
+//double dargees = double.Parse(Console.ReadLine());
+//double fahrenheit  =  dargees * 9 / 5 + 32;
+//Console.Write($"Result:  "+fahrenheit);
+
+Console.WriteLine("Enter the revolutions of Mars around the Sun:");
+double around = double.Parse(Console.ReadLine());
+const int days = 686;
+double Marsdays = around * days;
+Console.WriteLine("Result: " + Marsdays);
+
+
