@@ -51,31 +51,86 @@
 
 
 
-Console.Write("Enter price; ");
+//Console.Write("Enter price; ");
 
-double price = double.Parse(Console.ReadLine());
+//double price = double.Parse(Console.ReadLine());
 
-if ( price >=1000 && price <= 5000)
+//if ( price >=1000 && price <= 5000)
+//{
+//    Console.WriteLine("discount 10% ");
+
+//    double  price1 = price -  price  * (10 / 100.0);
+//    Console.WriteLine($"result: {price1} ");
+//}
+//else
+//{
+//    Console.ForegroundColor= ConsoleColor.Red;
+//    Console.WriteLine("not discount: ");
+//    Console.ResetColor();
+
+//}
+//if (price >= 5000)
+//{
+//    Console.WriteLine("discount 25% ");
+
+//    double price1 = price - price * (25 / 250.0);
+//    Console.WriteLine($"result: {price1} ");
+//}
+
+
+
+
+Console.WriteLine("Enter your Email");
+string Email = Console.ReadLine();
+
+if (Email.Contains("@") && Email.Contains("."))
 {
-    Console.WriteLine("discount 10% ");
+    
+     Console.WriteLine("Good Email");
 
-    double  price1 = price -  price  * (10 / 100.0);
-    Console.WriteLine($"result: {price1} ");
 }
 else
 {
-    Console.ForegroundColor= ConsoleColor.Red;
-    Console.WriteLine("not discount: ");
-    Console.ResetColor();
-
+    Console.WriteLine("No Good Email");
 }
-if (price >= 5000)
+
+
+Console.WriteLine("Enter your name: ");
+string name = Console.ReadLine();
+ 
+if (name.Length > 1)
 {
-    Console.WriteLine("discount 25% ");
-
-    double price1 = price - price * (25 / 250.0);
-    Console.WriteLine($"result: {price1} ");
+    Console.WriteLine("good");
 }
+else
+{
+    Console.WriteLine("No Good");
+}
+
+Console.WriteLine("Enter sentances");
+string sentances = Console.ReadLine();
+
+if ( sentances.Length >= 20 )
+{
+
+   var a1 =  sentances.Replace('.', '!');
+
+    Console.WriteLine($"Your sentences: {a1} ");
+
+}
+if (sentances.Length <= 20)
+{
+    var a2 = sentances.Replace('.', '/');
+    Console.WriteLine($"Your sentences: {a2} ");
+
+}
+
+   
+
+
+
+
+
 
 
 
