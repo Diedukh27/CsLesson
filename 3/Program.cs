@@ -80,50 +80,103 @@
 
 
 
-Console.WriteLine("Enter your Email");
-string Email = Console.ReadLine();
+//Console.WriteLine("Enter your Email");
+//string Email = Console.ReadLine();
 
-if (Email.Contains("@") && Email.Contains("."))
+//if (Email.Contains("@") && Email.Contains("."))
+//{
+
+//     Console.WriteLine("Good Email");
+
+//}
+//else
+//{
+//    Console.WriteLine("No Good Email");
+//}
+
+
+//Console.WriteLine("Enter your name: ");
+//string name = Console.ReadLine();
+
+//if (name.Length > 1)
+//{
+//    Console.WriteLine("good");
+//}
+//else
+//{
+//    Console.WriteLine("No Good");
+//}
+
+//Console.WriteLine("Enter sentances");
+//string sentances = Console.ReadLine();
+
+//if ( sentances.Length >= 20 )
+//{
+
+//   var a1 =  sentances.Replace('.', '!');
+
+//    Console.WriteLine($"Your sentences: {a1} ");
+
+//}
+//if (sentances.Length <= 20)
+//{
+//    var a2 = sentances.Replace('.', '/');
+//    Console.WriteLine($"Your sentences: {a2} ");
+
+//}
+
+
+
+//Console.WriteLine("Enter your rating");
+//int rating = int.Parse(Console.ReadLine());
+
+//if (rating >=1 && rating <=3)
+//{
+//    Console.WriteLine("no good rating");
+
+//}
+//if (rating >=4 && rating <= 8)
+//{
+//    Console.WriteLine("good rating");
+//}
+//if (rating >=9 && rating <= 12)
+//{
+//    Console.WriteLine("Perfect rating");
+
+//}
+
+
+Console.WriteLine("Enter carency 1USD 2EURO 3PLN ");
+int carency = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter GRN ");
+int GRN = int.Parse(Console.ReadLine());    
+
+switch (carency)
 {
+   case 1 : Console.WriteLine($"Result: {GRN / 41,14} "); break;
+   case 2 : Console.WriteLine($" Result: {GRN / 46}  "); break;
+   case 3 : Console.WriteLine($"Result: {GRN / 10,74}"); break;
+   default: Console.WriteLine("NO"); break;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-     Console.WriteLine("Good Email");
 
-}
-else
-{
-    Console.WriteLine("No Good Email");
-}
-
-
-Console.WriteLine("Enter your name: ");
-string name = Console.ReadLine();
- 
-if (name.Length > 1)
-{
-    Console.WriteLine("good");
-}
-else
-{
-    Console.WriteLine("No Good");
-}
-
-Console.WriteLine("Enter sentances");
-string sentances = Console.ReadLine();
-
-if ( sentances.Length >= 20 )
-{
-
-   var a1 =  sentances.Replace('.', '!');
-
-    Console.WriteLine($"Your sentences: {a1} ");
-
-}
-if (sentances.Length <= 20)
-{
-    var a2 = sentances.Replace('.', '/');
-    Console.WriteLine($"Your sentences: {a2} ");
-
-}
 
    
 
