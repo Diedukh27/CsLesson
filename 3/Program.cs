@@ -146,22 +146,62 @@
 //}
 
 
-Console.WriteLine("Enter carency 1USD 2EURO 3PLN ");
-int carency = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter carency 1USD 2EURO 3PLN ");
+//int carency = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter GRN ");
-int GRN = int.Parse(Console.ReadLine());    
+//Console.WriteLine("Enter GRN ");
+//int GRN = int.Parse(Console.ReadLine());    
 
-switch (carency)
+//switch (carency)
+//{
+//   case 1 : Console.WriteLine($"Result: {GRN / 41,14} "); break;
+//   case 2 : Console.WriteLine($" Result: {GRN / 46}  "); break;
+//   case 3 : Console.WriteLine($"Result: {GRN / 10,74}"); break;
+//   default: Console.WriteLine("NO"); break;
+//}
+
+
+
+//Console.Write("Enter line length: ");
+//int number = int.Parse(Console.ReadLine());
+
+//for (int count = 0; count < number; count++)
+//{
+
+//    Console.Write("#");
+
+//}
+
+
+
+//Console.WriteLine("Enter number");
+//int number1 = int.Parse(Console.ReadLine());
+
+
+//Console.Write("Enter line symbol:");
+//string symbol1 = (Console.ReadLine());
+
+//for (int count = 0; count < number1; count++)
+//{
+//    Console.Write($"{symbol1}");
+//}
+
+
+
+
+Console.Write("Enter number1: ");
+int startone= int.Parse(Console.ReadLine());
+
+Console.Write("Enter number2: ");
+int startend = int.Parse(Console.ReadLine());
+
+for (int count = startone; count <= startend; count++)
 {
-   case 1 : Console.WriteLine($"Result: {GRN / 41,14} "); break;
-   case 2 : Console.WriteLine($" Result: {GRN / 46}  "); break;
-   case 3 : Console.WriteLine($"Result: {GRN / 10,74}"); break;
-   default: Console.WriteLine("NO"); break;
-
-
-
+    Console.Write($" {count}");
 }
+
+
+
 
 
 
