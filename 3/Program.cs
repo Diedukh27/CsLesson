@@ -189,15 +189,34 @@
 
 
 
-Console.Write("Enter number1: ");
-int startone= int.Parse(Console.ReadLine());
 
-Console.Write("Enter number2: ");
-int startend = int.Parse(Console.ReadLine());
 
-for (int count = startone; count <= startend; count++)
+
+
+Console.WriteLine("Enter symbol: ");
+char symbol = char.Parse(Console.ReadLine());
+
+
+
+Console.Write("Enter width: ");
+int width = int.Parse(Console.ReadLine());
+
+Console.Write("Enter height: ");
+int height = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter Color, 1-Green 2-Blue 3-Red;");
+int color = int.Parse(Console.ReadLine());
+
+switch (color)
 {
-    Console.Write($" {count}");
+    case 1: Console.ForegroundColor = ConsoleColor.Green; break;
+    case 2: Console.ForegroundColor = ConsoleColor.Blue; break;
+    case 3: Console.ForegroundColor = ConsoleColor.Red; break;
+}
+
+for (int i = 0; i < height; i++)
+{
+    Console.WriteLine(new string(symbol, width));
 }
 
 
@@ -215,10 +234,14 @@ for (int count = startone; count <= startend; count++)
 
 
 
-    
 
 
-   
+
+
+
+
+
+
 
 
 
