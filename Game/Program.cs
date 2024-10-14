@@ -59,9 +59,9 @@ while (money > 0)
     }
 
     Console.ResetColor();
-
-    Console.WriteLine($"Balance: {money}$");
+    Console.WriteLine($"Balance: {money}$");   
 }
+
 
 static void DrawDice(int roll)
 {
