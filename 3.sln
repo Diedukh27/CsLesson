@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puzzle game", "Puzzle game\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 puzzl game", "15 puzzl game\15 puzzl game.csproj", "{9892C7F2-C61C-4C68-9659-DB02AD1DC460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RACE", "RACE\RACE.csproj", "{06DECAC3-1643-4BFA-974F-CB0219725804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RACE", "RACE\RACE.csproj", "{06DECAC3-1643-4BFA-974F-CB0219725804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cycles", "cycles\cycles.csproj", "{06CA66CF-2C28-4BCD-8E72-0A5B6BA93006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{06DECAC3-1643-4BFA-974F-CB0219725804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06DECAC3-1643-4BFA-974F-CB0219725804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06DECAC3-1643-4BFA-974F-CB0219725804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CA66CF-2C28-4BCD-8E72-0A5B6BA93006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CA66CF-2C28-4BCD-8E72-0A5B6BA93006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CA66CF-2C28-4BCD-8E72-0A5B6BA93006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CA66CF-2C28-4BCD-8E72-0A5B6BA93006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
